@@ -1,0 +1,132 @@
+﻿Ingredients,Origin,Restriction,Adjective
+pancetta,italy,meat-pancetta,"crunchy, salty, savory, oily, meaty"
+lechon kawali,philippines,meat-pancetta,"crunchy, salty, savory, oily, meaty, rich, heavy"
+lardons,france,meat-pancetta,"crunchy, salty, oily, chewy, meaty, simple, rich"
+chicharrones,latin america,meat-pancetta,"crunchy, nutty, simple, meaty, oily, salty, savory"
+bacon,usa,meat-pancetta,"chewy, light, simple, meaty, salty, savory, oily"
+spaghetti,italy,noodle-spaghetti,"light, simple, tender"
+ramen,japan,noodle-spaghetti,"light, simple, chewy"
+lo mein,china,noodle-spaghetti,"light, simple, chewy"
+yaka mien,china,noodle-spaghetti,
+fettuccine,italy,noodle-spaghetti,"light, simple, chewy"
+tagliatelle,italy,noodle-spaghetti,
+,,,
+linguine,italy,noodle-spaghetti,"light, simple, chewy"
+chashu pork,japan,meat-chashu,"savory, umami, meaty, tender, rich, fatty"
+filipino pork adobo,philippines,meat-chashu,"savory, umami, sweet, meaty, complex, heavy, chewy, vinegary, oily, gamy, fatty"
+mexican pork adobo,mexico ,meat-chashu,"aromatic, spicy, nutty, complex, meaty, herbal, savory, rich, tender, fatty"
+spam,usa,meat-chashu,"salty, simple, savory, oily, tangy, fatty"
+char siu pork belly,china,meat-chashu,"sweet, savory, heavy, complex, meaty, tangy, fatty, aromatic"
+parmesan,italy,dressing-butter,
+miso,japan,dressing-butter,"savory, nutty, complex, fermented, funky, complex, creamy, salty, light, tangy, healthy, umami "
+salted egg yolk,china,dressing-butter,"nutty, sweet, salty, savory, complex, rich, funky, fermented, umami "
+ghee,india,dressing-butter,
+tahini,middle east,dressing-butter,
+garlic butter clams,italy,seafood-clams,"garlicy, rich, briny, bright, fishy"
+coconut lemongrass clams,thailand,seafood-clams,
+clams in port wine,portugal,seafood-clams,
+garlic ginger clams,taiwan,seafood-clams,
+soju steamed clams,korea,seafood-clams,
+scallion oil razor clams,vietnam,seafood-clams,
+garlic razor clams,spain,seafood-clams,
+basil pesto,italy,dressing-pesto,"herby, bright, fresh, herbal, vegetal, oily, nutty, cheesy, healthy"
+mole,mexico,dressing-pesto,"nutty, aromatic, rich, complex, herbal, bitter, sweet, saucy"
+hummus,middle east,dressing-pesto,
+chimichurri,argentina,dressing-pesto,
+thai basil pesto,thailand,dressing-pesto,
+seared chicken breast,italy,meat-chicken breast,
+teriyaki chicken,japan,meat-chicken breast,
+chicken tagine,morocco,meat-chicken breast,
+moorish chicken,portugal,meat-chicken breast,
+cajun butter chicken,usa,meat-chicken breast,
+jerk chicken,jamaica,meat-chicken breast,
+tandoori chicken,india,meat-chicken breast,
+chicken tarkari,nepal,meat-chicken breast,
+parisian chicken,france,meat-chicken breast,
+peri peri chicken,mozambique ,meat-chicken breast,
+peruvian roasted chicken,peru,meat-chicken breast,
+italian sausage,italy,meat-sausage,
+mexican chorizo,mexico,meat-sausage,
+cajun sausage,usa,meat-sausage,
+black pudding,ireland,meat-sausage,
+kielbasa,poland,meat-sausage,
+bratwurst,germany,meat-sausage,
+andouille,france,meat-sausage,
+longaniza,argentina,meat-sausage,
+sai ua,thailand,meat-sausage,
+longganisa,philippines,meat-sausage,
+lasagna,italy,noodle-lasagna,
+chee cheong fun,china,noodle-lasagna,
+salami,italy,meat-salami,"salty, fatty, oily, savory, peppery, tangy"
+biltong,south africa,meat-salami,
+spanish chorizo,spain,meat-salami,
+jamon iberico,spain,meat-salami,
+sujuk,middle east,meat-salami,
+schinkenspeck,germany,meat-salami,
+cervelat,switzerland,meat-salami,
+pastrami,usa,meat-salami,
+kabanos,poland,meat-salami,
+lap cheong,china,meat-salami,
+bakkwa,china,meat-salami,
+lap yuk,china,meat-salami,
+black olives,italy,vegetable-olives,"bitter, vegetal, woody, nutty, strong, salty, oily, savory"
+gemlik olives,turkey,vegetable-olives,
+beldi olives,morocco,vegetable-olives,
+alfonso olives,chile,vegetable-olives,
+mission olives,usa,vegetable-olives,
+lugano olives,switzerland,vegetable-olives,
+galega olives,portugal,vegetable-olives,
+green olives,italy,,
+capers,italy,vegetable-olives,
+rotini,italy,noodle-rotini,
+macaroni,usa,noodle-rotini,
+penne,canada,noodle-rotini,
+ddeok,korea,noodle-rotini,
+italian beef meatballs,italy,meat-meatballs,
+kofta,persia,meat-meatballs,
+keftedes,greece,meat-meatballs,
+albondigas,spain,meat-meatballs,
+faggots,united kingdom,meat-meatballs,
+frikadeller,denmark,meat-meatballs,
+swedish meatballs,sweden,meat-meatballs,
+pulpety,poland,meat-meatballs,
+chiftele,romania,meat-meatballs,
+lion's head meatball,china,meat-meatballs,
+bò viên,vietnam,meat-meatballs,
+bakso,indonesia,meat-meatballs,
+tsukune,japan,meat-meatballs,
+red wine braised lamb,italy,meat-lamb,
+guinness stewed lamb,ireland,meat-lamb,
+peking braised lamb,china,meat-lamb,
+mongolian lamb,mongolia,meat-lamb,
+xinjiang cumin lamb,china,meat-lamb,
+lamb tagine,morocco,meat-lamb,
+pappardelle,italy,noodle-pappardelle,
+la mian,china,noodle-pappardelle,
+garlic butter shrimp,italy,seafood-shrimp,
+ginger garlic prawns,thailand,seafood-shrimp,
+peri peri shrimp,south africa,seafood-shrimp,
+cajun shrimp,usa,seafood-shrimp,
+aguachile,mexico,seafood-shrimp,
+masala shrimp,india,seafood-shrimp,
+creole shrimp,usa,seafood-shrimp,
+lemon,italy,dressing-lemon,
+yuzu,japan,dressing-lemon,
+fingered citron,china,dressing-lemon,
+cured anchovies ,italy,seafood-anchovies,
+"lakerda	",greece,seafood-anchovies,
+sour herring,sweden,seafood-anchovies,
+bagoong,philippines ,seafood-anchovies,
+kusaya,japan,seafood-anchovies,
+guedj,senegal,seafood-anchovies,
+jeotgal,korea,seafood-anchovies,
+fermented fish paste,cambodia,seafood-anchovies,
+red chili flakes,italy,dressing-chili,
+spicy chili crisp,china,dressing-chili,"nutty, spicy, oily, salty, crunchy, aromatic "
+gojuchang,korea,dressing-chili,"thick, spicy, sweet, funky, fermented, meaty, salty, complex"
+thai chilies,thailand,dressing-chili,
+ancho paste,mexico,dressing-chili,
+harissa,north africa,dressing-chili,
+sambal oelek,indonesia,dressing-chili,
+buckwheat soba noodles,usa,noodle-bucatini,
+bucatini,italy,noodle-bucatini,
