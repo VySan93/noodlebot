@@ -1,0 +1,46 @@
+import pandas as pd
+
+dishes = pd.read_csv('NoodlesWorking.csv')
+ing = pd.read_csv('IngredientsWorking.csv')
+
+flavor = ['creamy', 'rich', 'savory', 'heavy', 'fatty', 'meaty', 'briny', 'bright', 'fishy', 'light', 'tangy', 'herbal', 'vegetarian', 'fresh', 'oily', 'healthy', 'simple', 'saucy', 'cheesy', 'vinegary', 'spicy', 'complex', 'salty', 'sour', 'fermented', 'funky', 'brothy', 'umami']
+country = ['japan', 'italy', 'usa']
+df = pd.DataFrame(columns=['Ingredients_x', 'Ingredients_y', 'Noodle Dish', 'input_profile'])
+
+for c in country:
+    for r1 in flavor:
+        for r2 in flavor:
+            if (r1 != r2):
+                chosen_dishes = dishes[
+                    (dishes["Profile"].str.contains(r1)) &
+                    (dishes["Profile"].str.contains(r2)) &
+                    (dishes["Origin"].str.contains(c))
+                ]
+                
+                chosen_dishes["Ingredients"] = chosen_dishes["Ingredients"].str.split(", ")
+                ing_list = chosen_dishes.explode('Ingredients')
+                ing_list = ing_list[['Noodle Dish', 'Profile', 'Ingredients', 'Origin']]
+                
+                
+                similar_ing = ing[
+                    ing['Ingredients'].isin(ing_list['Ingredients'])
+                    ]
+                
+                similar_ing = similar_ing[['Ingredients', 'Restriction', 'Origin']]
+                
+                all_options = similar_ing.merge(ing_list, on='Ingredients')
+                all_options = all_options.merge(ing, on='Restriction')
+                all_options = all_options[(all_options['Origin'] != c)]
+                all_options = all_options[['Ingredients_x', 'Ingredients_y','Origin', 'Origin_x', 'Origin_y', 'Noodle Dish']]
+                all_options['input_profile'] = '"' + r1 + ', ' + r2 + '":'
+                all_options = all_options[
+                    all_options['Ingredients_x'] != all_options['Ingredients_y']
+                ]
+                df = df.append(all_options)
+                df['Origin'] = df['Origin'].str.strip()
+                df['Origin_y'] = df['Origin_y'].str.strip()
+
+
+df['new_string'] = df['Noodle Dish'] + ' but instead of ' + df['Ingredients_x'] + ' use ' + df['Ingredients_y'] + ' (' + df['Origin_y'] + 'XXX' + df['Origin'] + ')'
+df = df.groupby('input_profile')['new_string'].apply(list)
+df.to_csv('output_file.csv')
